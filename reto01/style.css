@@ -1,0 +1,77 @@
+body {
+	background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+	width: 375px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+}
+
+.contenedor_texto {
+
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'Fraunces', serif;
+	
+}
+
+h2 {
+	color: hsl(228, 12%, 48%);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 88%;
+	font-weight: normal;
+	letter-spacing: 0.3em;
+	
+}
+
+.parrafo {
+	font-family: 'Montserrat', sans-serif;
+	color: hsl(228, 12%, 48%);
+	font-size: 88%;
+	line-height: 1.8em;
+	
+}
+.precios{
+	margin-bottom: 15px;
+}
+
+.precio-actual {
+	color: hsl(158, 36%, 37%);
+	font-family: 'Fraunces', serif;
+	font-size: 2em;
+	margin-top: 20px;
+	
+}
+
+.precio-antiguo {
+	color: hsl(228, 12%, 48%);
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: line-through;
+	font-size: 1em;
+	
+}
+
+button {
+	background-color: hsl(158, 36%, 37%);
+	border-radius: 10px;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px 32px;
+	text-align: center;
+	color: aliceblue;
+	width: 100%;
+	cursor: pointer;
+	
+	
+}
